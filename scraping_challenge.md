@@ -13,3 +13,4 @@ This week's challenge (duration is one week) is to make something creative based
 
 ## Update the links to your code here (use the same way as above to provide links)
 - [gitScraper](https://github.com/pratyush1687/gitScraper)
+- [ProblemRecommender](https://github.com/wh1t3r0s3/ProblemRecommender)
