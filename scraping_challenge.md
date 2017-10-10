@@ -15,3 +15,4 @@ This week's challenge (duration is one week) is to make something creative based
 - [gitScraper](https://github.com/pratyush1687/gitScraper)
 - [ProblemRecommender](https://github.com/wh1t3r0s3/ProblemRecommender)
 - [IMDBscraper](https://github.com/rupav/Scraping-From-IMDB)
+- [codeforcesScraper](https://github.com/aastha980/scrapecodeforces/tree/master)
