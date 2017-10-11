@@ -17,4 +17,5 @@ This week's challenge (duration is one week) is to make something creative based
 - [IMDBscraper](https://github.com/rupav/Scraping-From-IMDB)
 - [ScrapeAmazon](https://github.com/anmol-1602/lightningdeal)
 - [codeforcesScraper](https://github.com/aastha980/scrapecodeforces/tree/master)
+- [foo_dev](https://github.com/parimatrix/foo_dev)
 - [InstaStalker](https://github.com/rohit1576/InstaStalker)
