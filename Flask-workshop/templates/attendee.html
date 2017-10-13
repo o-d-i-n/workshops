@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+	<title>ODIN Thanks you</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			margin-top: 3%;
+		}
+		h2{
+			text-align: center;
+		}
+		h3{
+			text-align: center;
+		}
+		.name{
+			color:red;
+		}
+
+		div.smileyface {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	display: block;
+	background: #ffe632;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fffe8d), to(#f6d23e));
+	background: -moz-linear-gradient(top,  #fffe8d,  #f6d23e);	
+	box-shadow: inset 0px -14px 14px rgba(0, 0, 0, .3), 0px 2px 20px rgba(0, 0, 0, .6);
+	-webkit-box-shadow: inset 0px -14px 14px rgba(0, 0, 0, .3), 0px 2px 20px rgba(0, 0, 0, .6);
+	-moz-box-shadow: inset 0px -14px 14px rgba(0, 0, 0, .3), 0px 2px 20px rgba(0, 0, 0, .6);
+	}
+	
+p.eyes {
+	width: 50px;
+	height: 80px;
+	background: #222;
+	border-radius: 100px/160px;
+	-webkit-border-radius: 100px 160px;
+	-moz-border-radius: 100px/160px;
+	position: absolute;
+	top: 40px;
+	box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+	-webkit-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+	-moz-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+	}	
+	
+	p.eyes.lefteye {
+		left: 75px;
+		}
+		
+	p.eyes.righteye {
+		right: 75px;
+		}
+		
+	div.smile {
+		width: 200px;
+		height: 70px;
+		border: 10px solid #222;
+		border-top: 0;
+		background: rgba(0,0,0,0);
+		-moz-border-radius: 0 0 120px 120px / 0 0 90px 90px;
+		-webkit-border-radius: 0 0 120px 120px 0 0 90px 90px;
+		border-radius: 0 0 120px 120px / 0 0 90px 90px;
+		position: absolute;
+		bottom: 50px;
+		left: 38px;
+		box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+		-webkit-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+		-moz-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+		}
+		
+	div.corner {
+		width: 10px;
+		height: 30px;
+		background: #222;
+		border-radius: 100px/160px;
+		-webkit-border-radius: 100px 160px;
+		-moz-border-radius: 100px/160px;
+		position: absolute;
+		top: -12px;
+		-webkit-transform: rotate(65deg);
+		-moz-transform: rotate(65deg);
+		left: -12px;
+		}
+		
+		div.corner.right {
+			left: 202px;
+			-webkit-transform: rotate(-65deg);
+			-moz-transform: rotate(-65deg);		
+			}
+
+	</style>	
+</head>
+
+<body>
+
+<center><div class="smileyface">
+    <p class="eyes lefteye"></p>
+    <p class="eyes righteye"></p>
+    <div class="smile">
+        <div class="corner"></div>
+        <div class="corner right"></div>
+    </div>
+</div></center>
+
+{% if name %}
+  <h1>Thanks for attending the session <span class="name"> {{ name }}</span>,</h1>
+  <h2>We hope to see you soon</h2>
+  <h3>Time to be a part of the project, waiting for your PR's</h3> 
+{% else %}
+  <h1>Please enter /attendee/&lt;Your_Name&gt; </h1>
+{% endif %}
+</body>
+</html>
