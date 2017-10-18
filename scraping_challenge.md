@@ -19,3 +19,7 @@ This week's challenge (duration is one week) is to make something creative based
 - [codeforcesScraper](https://github.com/aastha980/scrapecodeforces/tree/master)
 - [foo_dev](https://github.com/parimatrix/foo_dev)
 - [InstaStalker](https://github.com/rohit1576/InstaStalker)
+
+
+- [CodechefLongChallengeTopRankers](https://github.com/Nshul/CodechefTopLongRankers)
+- [HackNewsTitlesfetch](https://github.com/Nshul/HackerNewsTitles)
